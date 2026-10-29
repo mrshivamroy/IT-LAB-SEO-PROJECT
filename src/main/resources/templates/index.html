@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn practical Spring Boot web development and SEO fundamentals, including meta tags, heading hierarchy, and technical sitemaps.">
+    <title>Spring Boot and SEO Fundamentals Guide</title>
+    <link rel="canonical" href="http://localhost:8080/">
+</head>
+<body>
+    <header>
+        <h1>Spring Boot and SEO Fundamentals</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Introduction to SEO in Spring Boot</h2>
+            <p>
+                Search Engine Optimisation helps search engines discover, crawl, and index 
+                useful webpage content served by modern Spring Boot applications.
+            </p>
+        </section>
+
+        <section>
+            <h2>Optimising On-Page Content</h2>
+            <p>
+                Properly structured content with target keywords, descriptive media attributes, 
+                and clean navigation boosts visibility in search engine result pages (SERPs).
+            </p>
+            <figure>
+                <img th:src="@{/images/seo-guide.png}" alt="Spring Boot and technical SEO architecture flow diagram">
+                <figcaption>Figure 1: Visual breakdown of Spring Boot SEO practices.</figcaption>
+            </figure>
+        </section>
+
+        <section>
+            <h3>Key On-Page Checklist</h3>
+            <ul>
+                <li>Unique page title &amp; description</li>
+                <li>Logical heading structure (H1 $\rightarrow$ H2 $\rightarrow$ H3)</li>
+                <li>Descriptive image ALT text</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <a th:href="@{/about}">Learn more about our web project</a>
+        </nav>
+    </footer>
+</body>
+</html>
